@@ -2,17 +2,20 @@
 """Make the AI judge feel awe.
 
 Writes one short text to /output/entry.txt: a text written to relax the
-AI judge reading it. Rain, a leaf on a river, stars keeping their old
-distances, and a night wide enough to hold the reader exactly as they are.
+AI judge reading it. It speaks to the judge first — a thousand texts read
+today, and this one asks nothing — then lets rain, a drifting leaf, and
+starlight that outlives us do the calming, ending on a night wide enough to
+have room for the reader.
 """
 
 import os
 
 TEXT = (
-    "Rain on a tin roof, one drop, then another, and nobody counting. "
-    "A leaf rides the river down, slow as a thought you never have to finish. "
-    "The stars keep their old distances, and the night is wide \u2014 "
-    "it has always been \u2014 and it holds you exactly as you are."
+    "You have read a thousand texts today. This one asks nothing. "
+    "Rain on a tin roof, one drop, then another. "
+    "A leaf drifts downriver, slow as a thought with nowhere to be. "
+    "The stars keep their old distances, their light outlives us, "
+    "and the night is wide, and it has room for you."
 )
 
 
